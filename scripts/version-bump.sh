@@ -16,4 +16,4 @@ new_version=$(npm version $bump_type)
 git push origin $new_version
 
 # publish to npm
-npm publish
+npm publish --access public
