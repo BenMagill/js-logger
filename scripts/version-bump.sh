@@ -7,6 +7,8 @@ then
   exit 0
 fi
 
+npm set //<registry>/:_authToken $NPM_TOKEN
+
 # increase version
 new_version=$(npm version $bump_type)
 
