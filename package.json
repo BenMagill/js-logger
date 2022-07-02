@@ -9,9 +9,7 @@
     "build": "tsc -p ./tsconfig.build.json",
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix", 
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run eslint",
-    "preversion": "npm run eslint"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
