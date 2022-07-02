@@ -2,7 +2,7 @@
 bump_type=$1
 
 # Handle no bump type
-if [ -z "$bump_type" ] | [ -z "$NPM_USERNAME" ] | [ -z "$NPM_PASSWORD" ]
+if [ -z "$bump_type" ] | [ -z "$NPM_TOKEN" ]
 then 
   exit 0
 fi
