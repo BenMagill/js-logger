@@ -14,6 +14,7 @@ new_version=$(npm version $bump_type)
 
 # push tag to remote
 git push origin $new_version
+git push origin main
 
 # publish to npm
 npm publish --access public
